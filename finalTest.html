@@ -1,0 +1,159 @@
+<!DOCTYPE html> 
+<!--Doctype shows the document type the browser will accept-->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"> <!--Opening HTML tag-->
+<head><!--Opening head tag--> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <!--Meta tage shows the document information--> 
+
+	<title>Final Test</title><!--This is the document title--> 
+	
+	<!--This section styles the page--> 
+	<style>
+		ul#noPoints li{
+			list-style-type:none;
+		}
+		
+		#in{
+			font-family: "Courier New", monospace;
+		}
+	</style>
+	
+	<link rel="stylesheet" href="finaltest.css">
+
+</head><!--Closing head tag--> 
+
+<body>
+	<!--#10: Bonus!-->
+	<!--
+		The course exepreience overall was pretty good. I think that the inclusion of labs was really helpful to illustrate what elements and styling can do. One of the best resources I thought was the W3Schools site, which allows you to test code really quickly.
+		
+		It would have been really interesting to try the project 2 as intended, but I think maybe when classes go back to campus it would be easier for students.
+		
+		I think the most difficult topics were the anchored link and keeping up with the outdated tags, but the validator gives suggestions on what to use instead. 
+	-->
+	
+	<h1>Final Test</h1>
+	
+	<!--Question 1--> 
+	<p id="top">
+		The two main parts of an HTML document are the&#58; &#60;head&#62; and &#60;body&#62; sections. The &#60;head&#62; section specifically holds the document information such as document title&#44; coding standards&#44; external style sheet links&#44; and script code&#46;
+	</p>
+
+
+	<!--Question 2-->
+	<h3>Forms &#60;form&#62;</h3>
+	<p>
+		Forms are surveys that users can fill out in a webpage. The form tag is the method of creating a form&#44; but it is a container element that holds other elements. 
+	</p>
+	
+	<h3>Div Tag &#60;div&#62;</h3>
+	<p>
+		Div elements are containers for other HTML elements. The internal elements can be moved around the webpage or stylized a certain way&#44; and this only affects the elements that are in the div tags.
+	</p>
+	
+	<h3>Footer Tag &#60;footer&#62;</h3>
+	<p>
+		The footer section of a webpage can contain several links to other pages in the site. This is a second navigation section that can contain links to some pages that are not necessarily main content. Some examples include &#8216;Contact Us&#8217;&#44; &#8216;Privacy&#8217;&#44; or a several social media accounts.
+	
+	<h3>Table Tag &#60;table&#62;</h3>
+	<p>
+		Tables are structures that websites can use to sort their content. The table tag is the container for the table row and table cell tags&#59; however&#44; the table row is another container&#44; so the cell is where the contents are actually stored.
+	</p>
+	 
+	<h3>Paragraph Tag &#60;p&#62;</h3>
+	<p>
+		Paragraphs simply contain text&#44; but the text can be stylized using CSS. Paragraphs themselves can also be stylized&#44; such as with their width and height.
+	</p>
+	
+	<h3>HTML5 Tags&#44; CSS&#44; and Links</h3>
+	<!--Question 3-->
+	<p>
+		The tags &#60;article&#62; and &#60;figure&#62; are some new semantic tags introduce in HTML5. 
+	</p>
+	<ul>
+		<li>The &#60;article&#62; tag contains the main content of the page</li>
+		<li>The &#60;figure&#62; tag is similar to the &#60;img&#62; tag in that it contains an image&#44; but it is actually a container tag for an image so it will still need the &#60;img&#62; tag</li>
+	</ul>
+	
+	
+	<!--Question 4-->
+	<p>There are three levels of CSS&#58; external&#44; internal&#44; and inline.</p>
+		
+		<ul id="noPoints">
+			<li id="ex"><b>External</b> &#45; Uses a separate HTML page. This page is linked in the head section of an HTML file.</li>
+			<li id="in"><b>Internal</b> &#45; This way uses a &#60;style&#62; tag and is located in the &#60;head&#62; section of the page.</li>	
+			<li><b>Inline</b> &#45; This form of CSS is located inside an <span style="color: red;">element</span>.</li>
+		</ul>
+	
+
+	<!--Question 5-->
+	<p>Links</p>
+		<ul>
+			<li>This is an absolute link: <a href="https://genius.com/">a</a></li>
+			<li>This is a relative link: <a href="splash.html">r</a></li>
+			<li>This is a named anchor: <a href="">n</a></li>
+			<li>You might be able to find some good <a href="https://www.socialmediatoday.com/content/top-10-advantages-contextual-link-building-seo">reasons</a> to use contextual linking in this sentence.</li>
+			<li>Lets head back to the top: <a href="#top">Going Up</a></li>
+	
+		</ul>
+	
+	<!--Question 6-->
+	<h3>Typography Example</h3>
+	<p style="font-family: 'Programme', sans-serif; font-size:70px; background-color: gray; text-align: center;"><b>Genius</b></p>
+	<p style="font-family: 'Programme', sans-serif; color: #FFFF64; font-size:70px; margin-top:-155px; margin-left:7px; text-align:center;"><b>Genius</b></p>
+
+	<!--Question 7-->
+	<p>
+		An artpiece I am personally proud of&#58; <a href="https://cs.neiu.edu/~porps/studentSp21/sarai/cs300/images/froggy.ico">x</a>
+	</p>
+
+	<!--Question 8-->
+
+	<h3>JavaScripts</h3>
+	<p style="color: #B6AEF9">&#40;The following JavaScript was an example taken from <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_style">W3Schools</a>&#41;</p>
+	
+	<p id="demo">JavaScript can change the style of an HTML element.</p> 
+	<!--This is the element that is manipulated by the JavaScript. It is given an id so the script knows which element to perform the event on.-->
+
+	<button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">Click Me!</button>
+	<!--The button element displays the button on the webpage that a user can click-->
+	<!--'onclick' is the event that will occur when a user clicks on the button-->
+	<!--The method document.getElement... is the change in style that occurs for the paragraph element-->
+
+
+	<!--Question 9-->
+	<h3>Unified Look and Feel</h3>
+	<p>
+		Sites should present themselves in a uniformed fashion. This gives the user a better looking experience with the site and it also helps them navigate the site much easily. Sites should have a navigation function included somewhere noticeable. Having this navigation section in the same place will make sure that users can go to any point in the site and not get lost.
+	</p>
+	
+	<p>
+		Having uniformed site helps out web developers as well. Reusing content can allow sites to load pages much quicker, which makes users not want to leave. Developers can also reuse their page&#39;s template throughout the website. 
+	</p>
+	
+	<p>
+		When making sites for mobile users&#44; some companies might want to create a separate site all together. It&#39;s still important for developers to try to make the two sites similiar to one another for users. 
+	</p>
+	
+	<h3>Box Properties</h3>
+	<p>
+		Boxes have several layers to them known as&#58; padding &#40;inside the border&#41;&#44; border&#44; and margin &#40;outside the border&#41;. These properties can be manipulated using CSS. Padding and border usually have their sizes changed and borders can be present or not. 
+	</p>
+	
+	<p>
+		Borders have the most styling options out of the three properties. If they are present they can be dotted&#44; solid&#44; dashed&#44; double&#44; and many more styles. Borders can also change sizes&#44; in fact each side of a border can have a different size value if that is what the developer wants&#33;
+	</p>
+
+	<p>
+		Padding and margins can have multiple sizes to them as well. This ability is useful when managing a site&#39;s layout or creating cool font effects. 
+	</p>
+
+
+	<!-- use this code to insert a validator icon -->
+	<p>
+		<a href="http://validator.w3.org/check?uri=referer"><img src="http://cs.neiu.edu/~porps/images/html5.png" alt="course icon for HTML5" height="31" width="88"></a>
+	  </p>
+	  
+	<!-- end of validator icon code -->
+
+
+</body></html>

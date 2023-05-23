@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" >
+<head>
+	<title>Music Form</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<style>
+		body {
+			background-color: #FCF4F6;
+			background-image: url(images/musical-notes.png);
+			background-repeat: repeat;
+			background-position: center center;
+		}
+		
+		h1 {
+			color: #0A0903;
+			background-color: #FCF4F6;
+			opacity: 0.8;
+		}
+
+		label {
+		  float: left;
+		  text-align: right;
+		  margin-right: 10px; 
+		}
+		
+		#formbox {
+		  border: solid medium;
+		  width: 600px;
+		  background-color: #f8edeb;
+		  margin-left: auto;
+   		  margin-right: auto;
+		}
+		
+		table {
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+	</style>
+</head>
+
+
+<body>
+	<table>
+		<tr>
+			<td>
+				<h1>&#9835; Music Form &#9835;</h1>
+			</td>
+		</tr>
+	</table>
+	
+	
+	<!--Question 1-->
+	<form name="Sarai" method="" action="">
+	<fieldset id="formbox">
+	
+	<!--Question 4-->
+		<label>Select your favorite music genres&#58; </label>
+	<fieldset style="border: none; width:580px;">
+			<label style="width: 180px; text-align:left;"><input type="checkbox" name="genre" value="Pop"/>Pop</label>
+			<label style="width: 180px; text-align:left"><input type="checkbox" name="genre" value="Rock"/>Rock</label>
+			<label style="width: 180px; text-align:left"><input type="checkbox" name="genre" value="Rap"/>Rap</label> 
+		<br>
+			<label style="width: 180px; text-align:left"><input type="checkbox" name="genre" value="Hip Hop"/>Hip Hop</label>
+			<label style="width: 180px; text-align:left"><input type="checkbox" name="genre" value="Alternative"/>Alternative</label>
+			<label style="width: 180px; text-align:left"><input type="checkbox" name="genre" value="Instrumental"/>Instrumental</label>
+		<br>
+			<label style="width: 180px; text-align:left"><input type="checkbox" name="genre" value="Country"/>Country</label>
+			<label style="width: 180px; text-align:left"><input type="checkbox" name="genre" value="Indie"/>Indie</label>
+			<label style="width: 180px; text-align:left"><input type="checkbox" name="genre" value="Soundtracks"/>Soundtracks</label>
+	</fieldset>
+	
+	<!--Question 2-->
+	<p>
+		<label>What is the name of your favorite artist&#63;</label> <br>
+		<input type="text" name="artistname"/>
+	</p>
+	
+	<p>
+		<label>What year do you think had great music&#63;</label> <br>
+		<input type="text" name="goodmusicyear"/>
+	</p>
+	
+	<!--Question 3-->
+	<p>
+		<label>Do you listen to radio stations or streaming platforms <em>&#40;ex. Spotify&#44; Pandora&#44; Apple Music&#41;</em>&#63;</label> <br>
+		<input type="radio" value="Radio Stations">Radio Stations
+		<input type="radio" value="Streaming Platforms">Streaming Platforms
+	</p>
+	
+	<!--Question 5-->
+	<p>
+		<label>When&#39;s the best time to listen to music&#63;</label> <br>
+		<select name="musicTime">
+				<option>&#40;Please select one option&#41;</option>
+			<optgroup label="Activities">
+				<option>Party&#47;Get Together</option>
+				<option>Before Sleeping</option>
+				<option>During a Workout</option>
+				<option>While Studying</option>
+				<option>When doing Chores</option>
+			<optgroup label="Locations">
+				<option>In a Car Ride</option>
+				<option>While Taking a Shower</option>
+				<option>While Playing a Game</option>
+			<optgroup label="With or Without People">
+				<option>Alone</option>
+				<option>With People</option>
+		</select>
+	</p>
+	
+	<!--Question 6-->
+	<p>
+		<label>What is a 10/10 album to you&#63; What are some reasons that make it a perfect album&#63;</label> <br>
+			<textarea name="bestalbum" id="bestalbum" rows="7" cols="80"> </textarea>
+	</p>
+	
+	<!--Question 7-->
+	<p style="text-align:center">
+		<input type="submit" value="Submit Form"/>
+		<input type="reset" value="Reset Form"/>
+	</p>
+	
+	
+	</fieldset>
+	</form>
+	
+	
+	<!-- use this code to insert a validator icon -->
+	<p>
+		<a href="http://validator.w3.org/check?uri=referer"><img
+			src="http://cs.neiu.edu/~porps/images/html5.png"
+			alt="course icon for HTML5" height="31" width="88" /></a>
+	  </p>
+	  
+	<!-- end of validator icon code -->
+</body>
+</html>

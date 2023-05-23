@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" >
+<head>
+	<title>Color Chart Page</title>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+	
+	<style>
+		table {
+			width:975px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		#banner {
+			background-color: #C77DFF;
+			color: black;
+			height: 100px;
+			text-align: center;
+		}
+		
+		#navigation	{
+			background-color: #9D4EDD;	
+			text-align: center;
+		}
+		
+		
+		ul#mainnav li{
+			display: inline;
+			list-style-type:none;
+			
+		}
+		
+		ul#mainnav a{
+			margin-right: 60px;
+			border: solid 2px;
+			border-color: #3C096C;
+			padding: 5px 10px 5px 10px;
+			background-color: #F0D6FF;
+		}
+		
+		ul#mainnav a:hover{
+			color: white;
+			background-color: #140623;
+		}
+		
+		#sides{
+			border-left: solid 1px #343A40;
+		}
+		
+		#content {
+			padding: 5px;
+			margin: 10px;
+			margin-left: 10px;
+		}
+		
+		#content a:hover{
+			color: red;
+		}
+		
+		#imgholder {
+			float: left;
+			margin: 3px;
+			padding: 10px;
+		}
+		
+		#footer {
+			background-color: #9D4EDD;
+			text-align: center;
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+		
+		ul#altnav li{
+			display: inline;
+			list-style-type:none;
+		}
+		
+		ul#altnav a{
+			margin-right: 90px;
+		}
+		
+		#footer a:hover{
+			color: yellow;
+		}
+		
+		ul#myinfo li{
+			list-style-type:none;
+			display: inline;
+			margin-right: 90px;
+		}
+		
+		a:link {
+			color: #212529;
+		}
+		
+		a:visited {
+			color: black;
+		}
+		
+		#colorchart{
+			border: 2px solid black;
+			width: 80%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		#colorchart td, th{
+			border: 2px solid black;
+			padding: 10px;
+		}
+	</style>
+</head>
+
+<body>
+	<!--Banner-->
+	<table id="banner"> 
+		<tr>
+			<td style="width: 195px;"> 
+				<!--A link attached to the left arrow image, leads to the previous page-->
+				<div style="text-align: center"> <a href="yellow.html">
+				<img src="images/Oarrow.png" style="width:50px;height:50px;" alt= "A black left arrow that will return to previous page."/></a> </div>
+			</td>
+			<td style="width: 195px;">Sarai Segura</td>
+			<td style="width: 195px;"><img src="images/bitmoji.png" style="width:75px;height:75px;" alt= "A cartoon interpretation of my appearance."/></td>
+			<td style="width: 195px; font-style: italic;">Just keep moving forward.</td>
+			<td style="width: 195px;"> 
+				<!--A link attached to the right arrow image, leads to the next page-->
+				<div style="text-align: center"> <a href="sitemap.html">
+				<img src="images/OarrowRight.png" style="width:50px;height:50px;" alt= "A black right arrow that will turn to next page."/></a> </div>
+			</td>
+		</tr> 
+	</table> 
+		
+	<!--Navigation-->
+	<table id ="navigation">
+		<tr>
+			<td>
+				<ul id="mainnav">
+					<!--A local link that takes user to the intro page-->
+					<li><a href="intro.html">Home</a></li>
+					
+					<!--A local link that takes user to the color chart page-->		
+					<li><a href="colorchart.html">Color Chart</a></li>
+					
+					<!--A local link that takes user to the red color page-->
+					<li><a href="red.html">Red</a></li>
+				
+					<!--A local link that takes user to the violet color page-->
+					<li><a href="violet.html">Violet</a></li>
+				
+					<!--A local link that takes user to the yellow color page-->		
+					<li><a href="yellow.html">Yellow</a></li>
+					
+					<!--A local link that takes user to the sitemap page-->
+					<li><a href="sitemap.html">Site Map</a></li>
+				</ul>
+			</td>
+		</tr> 
+	</table>
+
+	<!--Content-->
+	<table id="content" style="margin-left: auto; margin-right:auto;"> 		
+		<tr>	
+			<td>
+				<h1>Color Chart</h1>
+			</td>
+		</tr>
+		
+		<tr>
+			<td>
+				<table id="colorchart">
+					<thead>	<!--Header-->
+						<tr>
+							<th>Color Sample</th>
+							<th>Warm, Cool, or Neutral</th>
+							<th>Link to Color Pages</th>
+						</tr>
+					</thead>
+					
+					<tbody> <!--Body-->
+						<tr>
+							<td>
+								<div style="text-align: center"> <img src="images/applered.png" style="width:75px;height:75px;" alt= "A high saturated red."/>
+								</div>
+							</td>
+							<td style="text-align:center">Warm</td>
+							<td>
+								<p>
+									<a href = "red.html"> <!--A link that takes user to color red page-->
+										Red Page
+									</a>
+								</p>
+							</td>
+						</tr>
+						
+						<tr>
+							<td>
+								<div style="text-align: center"> <img src="images/frenchviolet.png" style="width:75px;height:75px;" alt= "An intense violet."/>
+								</div>
+							</td>
+							<td style="text-align:center">Cool</td>
+							<td>
+								<p>
+									<a href = "violet.html"> <!--A link that takes user to color violet page-->
+										Violet Page
+									</a>
+								</p>
+							</td>
+						</tr>
+						
+						<tr>
+							<td>
+								<div style="text-align: center"> <img src="images/mikadoyellow.png" style="width:75px;height:75px;" alt= "A high saturated shade of yellow."/> 
+								</div>
+							</td>
+							<td style="text-align:center">Warm</td>
+							<td>
+								<p>
+									<a href = "yellow.html"> <!--A link that takes user to color yellow page-->
+										Yellow Page
+									</a>
+								</p>
+							</td>
+						</tr>
+					</tbody>
+					
+					
+					<tfoot> <!--Footer-->
+						<tr>
+							<td colspan="3">
+								<p>
+									The most impressive color that I research had to be violet. It is a color that I have not seen a lot in web design so there is potential to use it when creating websites. 
+									Learning violet&#39;s association with luxury items and the history behind that connection was fascinating.
+								</p>
+							</td>
+						</tr>
+					</tfoot>
+				</table>
+			</td>
+		</tr>
+		
+		<tr>
+			<td>
+				<div style="text-align: center"> 
+					<p>
+						<!--A text link that takes user to the previous page, the violet page-->
+						<a href="yellow.html">Previous</a> 
+						
+						<!--This is to indicate the current page the user is in, yellow page-->
+						<span class="current"> &#124; <b>Color Chart</b> &#124; </span>
+					
+						<!--A text link that takes user to the next page, the sitemap page--> 
+						<a href="sitemap.html">Next</a>
+					</p>
+				</div>
+			</td>
+		</tr>
+	</table> 	
+	
+	<!--Footer-->
+	<table id="footer">
+		<tr>
+			<td>
+				<ul id="altnav">
+					<!--A local link that takes user to the color chart page-->		
+					<li><a href="colorchart.html">Color Chart</a></li>
+					
+					<!--A local link that takes user to the intro page-->
+					<li><a href="intro.html">Home</a></li>
+					
+					<!--A local link that takes user to the red color page-->
+					<li><a href="red.html">Red</a></li>
+				
+					<!--A local link that takes user to the violet color page-->
+					<li><a href="violet.html">Violet</a></li>
+				
+					<!--A local link that takes user to the yellow color page-->		
+					<li><a href="yellow.html">Yellow</a></li>
+					
+					<!--A local link that takes user to the sitemap page-->
+					<li><a href="sitemap.html">Site Map</a></li>
+				</ul>
+			</td>
+		</tr> 
+		<tr>
+			<td>
+				<ul id="myinfo">
+					<li>Sarai Segura</li>
+					<li><b>Contact</b>&#58; <a href="mailto:ssegura4@neiu.edu">ssegura4@neiu.edu</a></li>
+					<li>CS 300-1 Spring 2021</li>
+				</ul>
+			</td>
+		</tr>
+		
+	</table> 
+	
+	<p>
+		<a href="http://validator.w3.org/check?uri=referer"><img
+			src="http://cs.neiu.edu/~porps/images/html5.png"
+			alt="course icon for HTML5" height="31" width="88" /></a>
+	</p>
+</body>
+</html>
